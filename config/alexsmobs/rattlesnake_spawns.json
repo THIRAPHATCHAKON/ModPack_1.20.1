@@ -3,7 +3,7 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:is_badlands"
       }
     ],
@@ -20,14 +20,14 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_sandy"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:ancient_sands"
       }
     ],

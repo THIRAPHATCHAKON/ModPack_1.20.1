@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:alexsmobs:ghostly_pickaxe{Damage:0}",
     "item:alexsmobs:crocodile_chestplate{Damage:0}",
     "item:alexsmobs:frontier_cap{Damage:0}",
     "item:alexsmobs:froststalker_helmet{Damage:0}",
@@ -16,7 +17,6 @@
     "item:alexsmobs:rocky_shell",
     "item:alexsmobs:emu_feather",
     "item:alexsmobs:kangaroo_hide",
-    "item:alexsmobs:ghostly_pickaxe{Damage:0}",
     "item:survivorsarsenal:blood_props",
     "item:horror_element_mod:blood_5",
     "item:horror_element_mod:blood_4",
