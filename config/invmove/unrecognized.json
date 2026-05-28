@@ -10,7 +10,8 @@
     "dev.emi.emi.screen.RecipeScreen": true,
     "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true,
     "nl.requios.effortlessbuilding.gui.buildmode.RadialMenu": true,
-    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true
+    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true,
+    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true
   },
   "hideBackground": {
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
@@ -19,6 +20,7 @@
     "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
     "sfiomn.legendarysurvivaloverhaul.client.screens.BodyHealthScreen": true,
     "dev.emi.emi.screen.RecipeScreen": true,
-    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true
+    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true,
+    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true
   }
 }

@@ -770,13 +770,6 @@
     "curseForgeHash": 726567546,
     "modrinthHash": "67380b3468d18c137628be9434d51c39fd06d7b4"
   },
-  "Essential_1-3-10-9_forge_1-20-1.jar": {
-    "jarName": "Essential_1-3-10-9_forge_1-20-1.jar",
-    "modId": "essential-container",
-    "name": "Essential",
-    "curseForgeHash": 3563066203,
-    "modrinthHash": "3c4b4f26cece15b9efb79076a5d3d35ff044fcdb"
-  },
   "ExplorersCompass-1.20.1-1.4.0-forge.jar": {
     "jarName": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
     "modId": "explorerscompass",
