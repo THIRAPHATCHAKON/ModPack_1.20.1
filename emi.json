@@ -1,6 +1,10 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:birch_wood",
+    "item:superbwarfare:large_propeller",
+    "item:immersive_aircraft:propeller",
+    "item:superbwarfare:propeller",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:ah-64\",id:\"superbwarfare:container\"}}",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"superbwarfare:truck\",id:\"superbwarfare:container\"}}",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"superbwarfare:tom_6\",id:\"superbwarfare:container\"}}",
@@ -99,11 +103,6 @@
       "type": "item",
       "id": "minecraft:light_gray_dye",
       "amount": 4
-    },
-    {
-      "type": "item",
-      "id": "superbwarfare:large_propeller",
-      "amount": 2
     },
     "item:create:propeller",
     "item:create:encased_fan",
