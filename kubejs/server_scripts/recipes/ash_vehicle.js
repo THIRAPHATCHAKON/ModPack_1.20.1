@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'superbwarfare:steel_block' });
     //Tier 0
 
-                            event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
             "entity": "ashvehicle:zelensky"
         }
     });
-                        event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             "entity": "superbwarfare:yx_100"
         }
     });
-                        event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
             "entity": "superbwarfare:lav_150"
         }
     });
-                    event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
             "entity": "superbwarfare:plz_05"
         }
     });
-                    event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
             "entity": "superbwarfare:prism_tank"
         }
     });
-                event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
     //Tier 2
     //aircraft
 
-        event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-            event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-            event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
@@ -205,7 +205,8 @@ ServerEvents.recipes(event => {
         category: "aircraft",
         inputs: [
             "2 superbwarfare:large_motor",
-            "4 superbwarfare:medium_battery_pack",
+            "3 superbwarfare:medium_battery_pack",
+            "superbwarfare:small_battery_pack",
             "8 immersiveengineering:storage_steel",
             "4 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
@@ -225,7 +226,8 @@ ServerEvents.recipes(event => {
         category: "aircraft",
         inputs: [
             "2 superbwarfare:large_motor",
-            "3 superbwarfare:medium_battery_pack",
+            "2 superbwarfare:medium_battery_pack",
+            "superbwarfare:small_battery_pack",
             "7 immersiveengineering:storage_steel",
             "4 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
@@ -245,7 +247,8 @@ ServerEvents.recipes(event => {
         category: "aircraft",
         inputs: [
             "2 superbwarfare:large_motor",
-            "3 superbwarfare:medium_battery_pack",
+            "2 superbwarfare:medium_battery_pack",
+            "superbwarfare:small_battery_pack",
             "6 immersiveengineering:storage_steel",
             "4 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
@@ -327,14 +330,14 @@ ServerEvents.recipes(event => {
         inputs: [
             "4 superbwarfare:large_motor",
             "4 superbwarfare:medium_battery_pack",
-            "9 immersiveengineering:storage_steel",
-            "3 superbwarfare:light_armament_module",
+            "8 immersiveengineering:storage_steel",
+            "4 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
             "16 minecraft:glass",
             "4 ashvehicle:enginefanitem",
-            "35 mcore:titanium_sheet",
-            "37 minecraft:gold_ingot",
-            "48 minecraft:iron_ingot"
+            "32 mcore:titanium_sheet",
+            "40 minecraft:gold_ingot",
+            "40 minecraft:iron_ingot"
         ],
         result: {
             "entity": "ashvehicle:f-117"
@@ -346,8 +349,9 @@ ServerEvents.recipes(event => {
         category: "aircraft",
         inputs: [
             "4 superbwarfare:large_motor",
-            "4 superbwarfare:medium_battery_pack",
-            "9 immersiveengineering:storage_steel",
+            "3 superbwarfare:medium_battery_pack",
+            "superbwarfare:small_battery_pack",
+            "8 immersiveengineering:storage_steel",
             "3 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
             "16 minecraft:glass",
@@ -365,16 +369,17 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
+            "3 superbwarfare:large_motor",
+            "3 superbwarfare:medium_battery_pack",
+            "6 immersiveengineering:storage_steel",
+            "3 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "20 minecraft:glass",
+            "4 ashvehicle:enginefanitem",
+            "35 mcore:titanium_sheet",
+            "40 minecraft:gold_ingot",
+            "45 minecraft:iron_ingot",
+            "2 superbwarfare:large_propeller"
         ],
         result: {
             "entity": "ashvehicle:ah-64"
@@ -385,16 +390,16 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
+            "4 superbwarfare:large_motor",
+            "4 superbwarfare:medium_battery_pack",
+            "9 immersiveengineering:storage_steel",
             "2 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
             "6 minecraft:glass",
             "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "30 mcore:titanium_sheet",
+            "30 minecraft:gold_ingot",
+            "40 minecraft:iron_ingot",
         ],
         result: {
             "entity": "ashvehicle:su-27"
@@ -405,16 +410,17 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "aircraft",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
+            "3 superbwarfare:large_motor",
+            "4 superbwarfare:medium_battery_pack",
             "4 immersiveengineering:storage_steel",
             "2 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "20 minecraft:glass",
+            "4 ashvehicle:enginefanitem",
+            "35 mcore:titanium_sheet",
+            "30 minecraft:gold_ingot",
+            "45 minecraft:iron_ingot",
+            "2 superbwarfare:large_propeller"
         ],
         result: {
             "entity": "vvp:mi_24"
@@ -425,16 +431,14 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
+            "8 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "5 superbwarfare:track",
             "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "50 mcore:titanium_sheet",
+            "28 minecraft:gold_ingot",
+            "45 minecraft:iron_ingot",
         ],
         result: {
             "entity": "ashvehicle:gepard-1a2"
@@ -445,16 +449,15 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
+            "8 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "superbwarfare:small_battery_pack",
+            "5 superbwarfare:track",
             "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "50 mcore:titanium_sheet",
+            "28 minecraft:gold_ingot",
+            "45 minecraft:iron_ingot",
         ],
         result: {
             "entity": "ashvehicle:tos"
@@ -465,16 +468,15 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
+            "7 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "2 superbwarfare:small_battery_pack",
+            "3 superbwarfare:track",
             "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "47 mcore:titanium_sheet",
+            "30 minecraft:gold_ingot",
+            "40 minecraft:iron_ingot",
         ],
         result: {
             "entity": "vvp:leopard-2a4"
@@ -485,16 +487,15 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
+            "6 #superbwarfare:storage_blocks/steel",
+            "3 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "1 superbwarfare:small_battery_pack",
+            "5 superbwarfare:track",
             "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "60 mcore:titanium_sheet",
+            "40 minecraft:gold_ingot",
+            "40 minecraft:iron_ingot",
         ],
         result: {
             "entity": "vvp:fmtv"
@@ -505,16 +506,15 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "8 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "2 superbwarfare:small_battery_pack",
+            "4 superbwarfare:track",
+            "3 superbwarfare:large_motor",
+            "50 mcore:titanium_sheet",
+            "35 minecraft:gold_ingot",
+            "40 minecraft:iron_ingot",
         ],
         result: {
             "entity": "vvp:ural"
@@ -525,16 +525,15 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "7 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "3 superbwarfare:small_battery_pack",
+            "4 superbwarfare:track",
+            "3 superbwarfare:large_motor",
+            "43 mcore:titanium_sheet",
+            "30 minecraft:gold_ingot",
+            "38 minecraft:iron_ingot",
         ],
         result: {
             "entity": "superbwarfare:bmp_2"
@@ -545,16 +544,16 @@ ServerEvents.recipes(event => {
         type: "superbwarfare:vehicle_assembling",
         category: "land",
         inputs: [
-            "2 superbwarfare:large_motor",
-            "1 superbwarfare:medium_battery_pack",
-            "4 immersiveengineering:storage_steel",
-            "2 superbwarfare:light_armament_module",
-            "3 superbwarfare:wheel",
-            "6 minecraft:glass",
-            "2 ashvehicle:enginefanitem",
-            "5 mcore:titanium_sheet",
-            "15 minecraft:gold_ingot",
-            "24 minecraft:iron_ingot",
+            "7 #superbwarfare:storage_blocks/steel",
+            "2 superbwarfare:medium_armament_module",
+            "2 superbwarfare:medium_battery_pack",
+            "3 superbwarfare:small_battery_pack",
+            "4 superbwarfare:track",
+            "3 superbwarfare:large_motor",
+            "43 mcore:titanium_sheet",
+            "30 minecraft:gold_ingot",
+            "38 minecraft:iron_ingot",
+            "40 minecraft:copper_ingot"
         ],
         result: {
             "entity": "vvp:bmp_3"
@@ -1526,7 +1525,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-        event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "defense",
         inputs: [
@@ -1546,7 +1545,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-            event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "defense",
         inputs: [
@@ -1606,7 +1605,7 @@ ServerEvents.recipes(event => {
         }
     });
     //boat
-        event.custom({
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "water",
         inputs: [
@@ -1625,8 +1624,8 @@ ServerEvents.recipes(event => {
             "entity": "superbwarfare:speedboat"
         }
     });
-    
-            event.custom({
+
+    event.custom({
         type: "superbwarfare:vehicle_assembling",
         category: "water",
         inputs: [
