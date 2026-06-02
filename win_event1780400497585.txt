@@ -9,7 +9,22 @@ To inspect these events manually:
   3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
 
 -----------------------
-Time: 2026-05-25 13:28:59.781 ICT
+Time: 2026-06-02 18:41:26.552 ICT
+Source: Microsoft-Windows-CAPI2
+Event ID: 4176
+Level: Error
+
+Message:
+  PFX operation failed as AuthSafes count doesn't lie in expected range. Maximum permissible value: 200. Erroneous value: 283.
+
+
+Details:
+  - Data[1]: 200
+  - Data[2]: 283
+-----------------------
+
+-----------------------
+Time: 2026-06-02 18:41:26.916 ICT
 Source: Microsoft-Windows-CAPI2
 Event ID: 4176
 Level: Error

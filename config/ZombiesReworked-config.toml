@@ -1,15 +1,15 @@
 
 ["Items that the zombies can use"]
 	#Default true
-	"Should the zombies use totems of undying?" = true
+	"Should the zombies use totems of undying?" = false
 	#Default true
-	"Should the zombies use flint and steels?" = true
+	"Should the zombies use flint and steels?" = false
 	#Default true
-	"Should the zombies use ender pearls?" = true
+	"Should the zombies use ender pearls?" = false
 	#Default true
-	"Should the zombies use shields?" = true
+	"Should the zombies use shields?" = false
 	#Default true
-	"Should the zombies use spyglasses?" = true
+	"Should the zombies use spyglasses?" = false
 
 [Zombifications]
 	#Default true
@@ -22,7 +22,7 @@
 
 ["AI Changes for the vanilla zombies"]
 	#Default true
-	"Should the zombies now be IMMUNE to sunlight damage?" = true
+	"Should the zombies now be IMMUNE to sunlight damage?" = false
 	#Default 10
 	"Number of Zombies Spawning in a Horde" = 10
 	#Default true

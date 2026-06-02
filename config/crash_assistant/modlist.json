@@ -338,6 +338,14 @@
     "curseForgeHash": 4064165869,
     "modrinthHash": "78a776f057588a84a86c57dbe376b9b26f69f2c4"
   },
+  "CraftTweaker-forge-1.20.1-14.0.60.jar": {
+    "jarName": "CraftTweaker-forge-1.20.1-14.0.60.jar",
+    "modId": "crafttweaker",
+    "name": "CraftTweaker",
+    "version": "14.0.60",
+    "curseForgeHash": 2763445506,
+    "modrinthHash": "79ddddd3f14f8d4992ba90a7a8980918ed1b9ff8"
+  },
   "CrashAssistant-forge-1.19-1.20.1-1.11.9.jar": {
     "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
     "modId": "crash_assistant",
@@ -730,14 +738,6 @@
     "curseForgeHash": 1267466891,
     "modrinthHash": "a56a89cee5768111be08b089c67eb7c69b6b196a"
   },
-  "enhancedai-3.3.7.0.jar": {
-    "jarName": "enhancedai-3.3.7.0.jar",
-    "modId": "enhancedai",
-    "name": "Enhanced AI",
-    "version": "3.3.7.0",
-    "curseForgeHash": 3118889809,
-    "modrinthHash": "504869ef1aa86b2fa1ba428ccb644ea99033b9a9"
-  },
   "EnhancedVisuals_FORGE_v1.8.28_mc1.20.1.jar": {
     "jarName": "EnhancedVisuals_FORGE_v1.8.28_mc1.20.1.jar",
     "modId": "enhancedvisuals",
@@ -969,22 +969,6 @@
     "version": "1.20.1-10.2.0-183",
     "curseForgeHash": 1984535685,
     "modrinthHash": "b6e403e0e5be1802268be366ad1a7791f07fb793"
-  },
-  "improvedmobs-1.20.1-1.13.6-forge.jar": {
-    "jarName": "improvedmobs-1.20.1-1.13.6-forge.jar",
-    "modId": "improvedmobs",
-    "name": "Improved Mobs Mod",
-    "version": "1.20.1-1.13.6",
-    "curseForgeHash": 3505711881,
-    "modrinthHash": "e24ff44724300d441b2d615c2c7bf010bc8436f5"
-  },
-  "imzoai-1.1.0.jar": {
-    "jarName": "imzoai-1.1.0.jar",
-    "modId": "imzoai",
-    "name": "Improvised Zombies AI",
-    "version": "1.1.0",
-    "curseForgeHash": 3737474574,
-    "modrinthHash": "1c4b595ab32164ca7b4f172f06cc980f3e106fb8"
   },
   "insanelib-1.23.4.4.jar": {
     "jarName": "insanelib-1.23.4.4.jar",
@@ -1311,6 +1295,14 @@
     "curseForgeHash": 1747634931,
     "modrinthHash": "8e02c89f476d39d279d4b174d1a9137ad45cd8e5"
   },
+  "Neat-1.20.1-41-FORGE.jar": {
+    "jarName": "Neat-1.20.1-41-FORGE.jar",
+    "modId": "neat",
+    "name": "Neat",
+    "version": "1.20.1-41-FORGE",
+    "curseForgeHash": 2584592298,
+    "modrinthHash": "32fe1c807ac0c6aed8045260934f1ba6dc491361"
+  },
   "Necronomicon-Forge-1.6.0+1.20.1.jar": {
     "jarName": "Necronomicon-Forge-1.6.0+1.20.1.jar",
     "modId": "necronomicon",
@@ -1390,6 +1382,14 @@
     "version": "4.0.0-beta.10",
     "curseForgeHash": 1318765130,
     "modrinthHash": "26616591ebf471f787faa633b220d8f5c30e8282"
+  },
+  "Pehkui-3.8.2+1.20.1-forge.jar": {
+    "jarName": "Pehkui-3.8.2+1.20.1-forge.jar",
+    "modId": "pehkui",
+    "name": "Pehkui",
+    "version": "3.8.2+1.20.1-forge",
+    "curseForgeHash": 3398908649,
+    "modrinthHash": "4bc816efdd8e5e2a97423313674401351710e403"
   },
   "Prism-1.20.1-forge-1.0.5.jar": {
     "jarName": "Prism-1.20.1-forge-1.0.5.jar",
@@ -1783,14 +1783,6 @@
     "curseForgeHash": 4118481799,
     "modrinthHash": "2dc5d3fa8cf2f45bda940e9299148b696c867611"
   },
-  "taczsf-1.20.1-1.1.1.jar": {
-    "jarName": "taczsf-1.20.1-1.1.1.jar",
-    "modId": "taczsf",
-    "name": "[TaCZ] Special Forces",
-    "version": "1.20.1-1.1.1",
-    "curseForgeHash": 1993535821,
-    "modrinthHash": "0f3c115ff85854da3f8485528f9f4c687c3a972b"
-  },
   "tcc-1.1.8.jar": {
     "jarName": "tcc-1.1.8.jar",
     "modId": "tcc",
@@ -1958,21 +1950,5 @@
     "version": "1.1.2",
     "curseForgeHash": 104713643,
     "modrinthHash": "019ed3f01e58f7e1ffa16dc73ee994c1bca1dbe2"
-  },
-  "zombieawareness-1.20.1-1.13.1.jar": {
-    "jarName": "zombieawareness-1.20.1-1.13.1.jar",
-    "modId": "zombieawareness",
-    "name": "Zombie Awareness",
-    "version": "1.20.1-1.13.1",
-    "curseForgeHash": 1702352355,
-    "modrinthHash": "173c30c8918da57be9398b3687ea19a81455c2c1"
-  },
-  "zombies_reworked-1.20.1-1.1.6.jar": {
-    "jarName": "zombies_reworked-1.20.1-1.1.6.jar",
-    "modId": "zombies_reworked",
-    "name": "Zombies Reworked",
-    "version": "1.20.1-1.1.6",
-    "curseForgeHash": 299585671,
-    "modrinthHash": "d6ec6275b9c21054a028d043c33228b894a679e3"
   }
 }
